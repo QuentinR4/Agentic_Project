@@ -1,0 +1,13 @@
+langchain
+chromadb
+sentence-transformers
+transformers
+huggingface-hub
+
+
+langchain-google-genai
+langchain-huggingface
+langchain-chroma
+langchain-community
+
+
