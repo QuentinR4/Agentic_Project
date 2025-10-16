@@ -1,0 +1,7 @@
+Qu'est-ce que Facil'iti ?
+La Fnac propose le service Facil’iti pour offrir la meilleure expérience web à tous nos clients, quel que soit leur handicap (troubles visuels, moteurs ou cognitifs).
+
+
+Ce service gratuit, permet d’adapter automatiquement le contenu des pages pour un meilleur confort : modification des zones cliquables pour une personne atteinte d’un tremblement parkinsonien, adaptation du design pour un senior, grossissement des polices pour une personne malvoyante, changement des couleurs pour un daltonien…
+
+Pour en savoir plus cliquez ici.
