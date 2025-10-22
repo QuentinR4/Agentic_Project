@@ -1,13 +1,17 @@
-langchain
-chromadb
-sentence-transformers
-transformers
-huggingface-hub
+# Core LLM & LangChain
+langchain>=0.1.0
+langchain-google-genai>=0.0.1
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.0.1
+langchain-community>=0.0.1
 
+# Embeddings & Vector Store
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+transformers>=4.35.0
+huggingface-hub>=0.19.0
 
-langchain-google-genai
-langchain-huggingface
-langchain-chroma
-langchain-community
+# Environment & Utilities
+python-dotenv>=1.0.0
 
 
