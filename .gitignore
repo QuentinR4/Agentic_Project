@@ -13,3 +13,8 @@ ENV/
 .env
 .env.*
 
+# Database files
+*.db
+
+# Script temporaire
+temp.py
