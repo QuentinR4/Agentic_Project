@@ -1,14 +1,15 @@
 # main.py
 import os
-from agents.support_agent import agent_support_fnac, analyze_and_store_llm, init_db
+from agents.support_agent import agent_support_fnac
+from agents.analytics_agent import init_analytics_db, analytics_agent
 import time
 
 def main():
     print("🧠 Agent de support Fnac — conversation interactive\n")
     print("Tape 'exit' pour quitter.\n")
     
-    # 🔹 Initialisation base
-    init_db()
+    # 🔹 Initialisation base analytics
+    init_analytics_db()
     
     # 🔹 Création de ton agent
     agent, memory = agent_support_fnac()
@@ -45,7 +46,7 @@ def main():
     final_user_message = all_user_messages[-1] if all_user_messages else ""
     final_agent_response = all_agent_responses[-1] if all_agent_responses else ""
 
-    analyze_and_store_llm(final_user_message, final_agent_response, chat_history_text, total_duration)
+    analytics_agent(final_user_message, final_agent_response, chat_history_text, total_duration)
 
 if __name__ == "__main__":
     main()
