@@ -20,4 +20,7 @@ pytest>=8.0.0
 # Data Handling
 pandas>=2.0.0
 
+# Web Interface
+gradio>=4.0.0
+
 
