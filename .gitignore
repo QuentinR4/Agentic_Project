@@ -18,3 +18,8 @@ ENV/
 
 # Script temporaire
 temp.py
+
+# Tests
+tests/results/
+tests/__pycache__/
+tests/vectorstore/

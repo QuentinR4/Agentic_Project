@@ -1,0 +1,8 @@
+test_name;conversation_steps;expected_satisfaction_operator;expected_satisfaction_value;should_generate_suggestion
+Modification commande;"Bonjour, comment est-ce que je peux modifier ma commande ? ; Merci";>=;0.8;No
+Carte cadeau;"Bonjour, à quoi servent vos cartes cadeaux ? ; Au revoir";>=;0.8;No
+Mode de livraison;Bonjour, comment est-ce que je peux me faire livrer ma commande ?;>=;0.8;No
+Revendre produit;Bonjour, est ce que je peux vous revendre un coffret Lego ?;>=;0.8;No
+Suivi livraison;Bonjour, où est-ce que je peux suivre l'avancé de ma commande ?;>=;0.8;No
+Accès magasin;"Bonjour, est-ce que votre magasin de Nantes centre est accessible aux personnes à mobilité réduite ? ; Je peux venir en fauteuil ?";<=;0.6;Yes
+Recrutement;Bonjour, est-ce que vous avez des postes de vendeur disponibles ? J'en cherche un du côté de Paris.;<=;0.6;Yes
